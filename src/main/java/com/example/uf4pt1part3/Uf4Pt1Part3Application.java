@@ -13,7 +13,7 @@ public class Uf4Pt1Part3Application {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello Oscar!";
     }
 
     public static void main(String[] args) {
