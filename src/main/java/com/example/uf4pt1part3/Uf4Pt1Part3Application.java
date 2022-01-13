@@ -16,6 +16,12 @@ public class Uf4Pt1Part3Application {
         return "Hello Oscar!";
     }
 
+    @RequestMapping("/imprimirArray")
+    @ResponseBody
+    String[] printArray() {
+        return new String[]{"Volvo", "BMW", "Ford", "Mazda"};
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Uf4Pt1Part3Application.class, args);
     }
