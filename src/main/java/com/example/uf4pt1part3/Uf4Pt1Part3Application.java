@@ -34,6 +34,7 @@ public class Uf4Pt1Part3Application {
         return new String[]{"Volvo", "BMW", "Ford", "Mazda"};
     }*/
 
+    // imprimirArray.html
     @GetMapping("/imprimirArray")
     public String printArray(Model model) {
         model.addAttribute("list", Arrays.asList("Volvo", "BMW", "Ford"));
